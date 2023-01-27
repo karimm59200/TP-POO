@@ -7,7 +7,7 @@ import Vehicule from "./Vehicule.js";
   }
     display(){
       
-      return `Auto : ${super.display()} ${this.climatisation ? 'avec climatisation' : 'sans climatisation'}`;
+      return `Auto : ${super.display()} ${this.climatisee ? 'avec climatisation' : 'sans climatisation'}`;
         
       
     }
