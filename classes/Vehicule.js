@@ -7,6 +7,6 @@
   }
 
   display(){
-    return `${this.marque}${this.modele}-${this.kilometrage}-${this.annee}`
+   return `${this.marque}-${this.modele}-${this.kilometrage}-${this.annee}`
   }
 }

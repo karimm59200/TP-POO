@@ -17,5 +17,8 @@ let moto = new Moto("bmw", "R1150R Rockster", 65000,2005);
 console.log(moto);
 
 
-result.innerHTML += ` <p>Voiture: ${voiture.marque}-${voiture.modele}-${voiture.kilometrage}-${voiture.climatisee}</p>`;
-result.innerHTML += `<p>Moto: ${moto.marque}-${moto.modele}-${moto.kilometrage}</p>`
+
+result.innerHTML += `<p>${voiture.display()}</p> <p> ${moto.display()}</p>`;
+//  result.innerHTML += ` <p>Voiture: ${voiture.marque}-${voiture.modele}-${voiture.kilometrage}-${voiture.climatisee}</p>
+//  <p>Moto: ${moto.marque}-${moto.modele}-${moto.kilometrage}</p>`;
+ 

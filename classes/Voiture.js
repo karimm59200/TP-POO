@@ -5,6 +5,11 @@ import Vehicule from "./Vehicule.js";
     super(marque, modele, kilometrage, annee);
     this.climatisee=climatisee;
   }
-  
+    display(){
+      
+      return `Auto : ${super.display()} ${this.climatisation ? 'avec climatisation' : 'sans climatisation'}`;
+        
+      
+    }
 
 }
